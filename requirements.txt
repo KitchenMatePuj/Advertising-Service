@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+SQLAlchemy
+pymysql
+pydantic
+python-dotenv
+pytest<7.3
+pytest-asyncio<0.25
+iniconfig
+PyYAML
+tavern[pytest]<2.0
