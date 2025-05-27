@@ -10,7 +10,7 @@ POOL_SIZE = props.database_pool_size
 engine = create_engine(
     DATABASE_URL,
     pool_size=POOL_SIZE,
-    echo=False  # Set to True if you want to see the SQL logs
+    echo=False
 )
 
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
